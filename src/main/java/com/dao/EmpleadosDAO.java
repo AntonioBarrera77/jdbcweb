@@ -12,7 +12,6 @@ import com.general.Database;
 import com.general.Metodos;
 
 public class EmpleadosDAO implements Metodos{
-	
 	Connection con = null;//Abre la conexión
 	PreparedStatement ps = null;//Lleva las instrucciones o setencias a la base 
 	ResultSet rs = null;// Trae los datos de la db
